@@ -9,7 +9,7 @@
 ---
 ## Images
 
-![Demo](record-expanded-list.gif |Width=100)
+![Demo](record-expanded-list.gif)
 
 ---
 
