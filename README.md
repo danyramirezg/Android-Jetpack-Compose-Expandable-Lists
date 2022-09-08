@@ -9,7 +9,7 @@
 ---
 ## Images
 
-![Demo](record-expanded-list.gif = 250x250)
+![Demo](record-expanded-list.gif |Width=100)
 
 ---
 
