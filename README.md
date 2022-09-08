@@ -9,9 +9,7 @@
 ---
 ## Images
 
-![Demo](record-expanded-list.gif)
-
-![Demo](./app_demo2.png)
+![Demo](record-expanded-list.gif = 250x250)
 
 ---
 
