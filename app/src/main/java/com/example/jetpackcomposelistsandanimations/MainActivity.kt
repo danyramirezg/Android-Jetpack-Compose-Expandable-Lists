@@ -103,17 +103,8 @@ fun MyMessages(messages: List<MyMessage>) {
 }
 
 @Composable
-fun myMessage(messages: List<MyMessage>) {
-    LazyColumn {
-        items(messages) { message ->
-            MyComponent(message)
-        }
-    }
-}
-
-@Composable
 fun MyTexts(message: MyMessage) {
-    var expanded by remember { mutableStateOf(false)}
+    var expanded by remember { mutableStateOf(false) }
 
     Row(
         modifier = Modifier.fillMaxSize(),
@@ -157,7 +148,14 @@ fun MyText(
     fontFamily: FontFamily,
     lines: Int = Int.MAX_VALUE
 ) {
-    Text(text, color = color, fontWeight = fontWeight, style = style, fontFamily = fontFamily, maxLines = lines)
+    Text(
+        text,
+        color = color,
+        fontWeight = fontWeight,
+        style = style,
+        fontFamily = fontFamily,
+        maxLines = lines
+    )
 }
 
 @Preview(showSystemUi = true)
